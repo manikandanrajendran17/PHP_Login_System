@@ -17,7 +17,9 @@ unset($_SESSION['error']);
 </head>
 
 <body class="<?php echo $theme; ?>">
+    
     <div class="container mt-5 col-md-4">
+        
         <?php if ($error): ?>
             <div class="alert alert-danger"><?php echo $error; ?></div>
         <?php endif; ?>
